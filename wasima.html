@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .photo-frame{
+            height: 205px;
+            width: 200px;
+            border: 10px solid goldenrod;
+            border-radius: 10px;
+            position: relative;
+            margin: 10px;
+            overflow: hidden;
+            
+        }
+        .photo-frame .photo img{
+            width: 100%;
+            height: 205px;
+            width: 200px;
+
+        }
+        .photo-detail{
+            position: absolute;
+            height: 202px;
+            width: 200px;
+            top: 0;
+            display: none;
+        }
+        .photo-frame:hover .photo-detail{
+            display: block;
+            background-color: rgba(218, 165, 32,30%);
+            height: 202px;
+            width: 200px;
+        }
+        .photo-frame:hover .photo-detail h3{
+            color: white;
+            background-color: black;
+            text-align: center;
+        }
+        .photo-frame:hover .photo-detail p{
+            text-align: center;
+            color: white;
+        }
+        .photo-album{
+            display: flex;
+            flex-wrap: wrap;
+            float: left;
+        }
+        .photo-frame:hover .photo img{
+            transform: scale(1.2);
+            transition: transform 1s;
+        }
+    </style>
+</head>
+<body>
+    <h1>Wasima Photo Book</h1>
+    <section class="photo-album">
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="wasima.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Wasima Mahpara</h3>
+                <p>She is beautiful.She is very cautious.She is intelligent.She has a good CGPA.She has good technical skills.She is a quick learner.She helps me a lot </p>
+            </div>
+        </div>
+    </section>
+    <section class="photo-album">
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="wasima.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Wasima Mahpara</h3>
+                <p>She is beautiful.She is very cautious.She is intelligent.She has a good CGPA.She has good technical skills.She is a quick learner.She helps me a lot</p>
+            </div>
+        </div>
+    </section>
+    <section class="photo-album">
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="wasima.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Wasima Mahpara</h3>
+                <p>She is beautiful.She is very cautious.She is intelligent.She has a good CGPA.She has good technical skills.She is a quick learner.She helps me a lot</p>
+            </div>
+        </div>
+    </section>
+    <section class="photo-album">
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="wasima.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Wasima Mahpara</h3>
+                <p>She is beautiful.She is very cautious.She is intelligent.She has a good CGPA.She has good technical skills.She is a quick learner.She helps me a lot</p>
+            </div>
+        </div>
+    </section>
+    <section class="photo-album">
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="wasima.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Wasima Mahpara</h3>
+                <p>She is beautiful.She is very cautious.She is intelligent.She has a good CGPA.She has good technical skills.She is a quick learner.She helps me a lot</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
